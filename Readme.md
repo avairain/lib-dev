@@ -13,5 +13,5 @@ npm run build
 
 ### 单组件开发
 ```shell
-npm run start:signComponent
+npm run start:signcomponent
 ```
