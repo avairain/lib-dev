@@ -34,6 +34,9 @@ const compiler = webpack(merge(webpackConfig, {
         },
         {
           from: 'src/**/*.md',
+          filter: n => {
+            return !/demo/.test(n)
+          },
           to: (e) => {
             const ma = e.absoluteFilename.match(/\\([a-z|A-Z]+)\\[\w|-]+(\.([\w|-]+))?\.md$/i)
             const name = (ma[1] || '') + (ma[2] || '').toLocaleLowerCase()
