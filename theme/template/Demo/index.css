@@ -1,0 +1,8 @@
+.code-expand-icon-show {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+}
+.code-expand-icon-hide {
+  display: none;
+}

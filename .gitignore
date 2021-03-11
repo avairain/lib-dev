@@ -1,0 +1,7 @@
+_site
+dist
+docs
+lib
+node_modules
+*.lock
+package-lock.json
