@@ -1,7 +1,7 @@
 {
-  "name": "pandora-modules",
+  "name": "@avairain/lib-dev",
   "version": "0.0.1",
-  "description": "pandora-modules",
+  "description": "@avairain/lib-dev",
   "main": "lib/index.js",
   "license": "MIT",
   "devDependencies": {
