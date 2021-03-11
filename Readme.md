@@ -1,6 +1,3 @@
-## Pandora Modules
-pandora 前端组件
-
 ### 开始
 ```shell
 npm install && npm start
